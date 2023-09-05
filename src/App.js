@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './Scoreboard.css';  
+import "./Scoreboard.css";
 
 export default function Scoreboard() {
   const [player, setPlayer] = useState({
@@ -14,7 +14,7 @@ export default function Scoreboard() {
       score: player.score + 1,
     });
   }
-
+  //this function is (جدعنة مني )
   function handelMinusClick(e) {
     setPlayer({
       ...player,
